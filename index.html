@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>DOM Task</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Dynamic Table with Validation</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <small id="username-message" class="message"></small>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age">
+        <small id="age-message" class="message"></small>
+
+        <button type="submit" id="sendBtn">Send</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 5%;">Id</th>
+                <th style="width: 45%;">Name</th>
+                <th style="width: 45%;">Age</th>
+                <th style="width: 5%;"><i class="fa-solid fa-ellipsis-vertical"></i></th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/485fca82aa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
