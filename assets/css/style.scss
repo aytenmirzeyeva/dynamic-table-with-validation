@@ -22,35 +22,37 @@ button {
     color: #333;
     text-align: center;
   }
-  label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: bold;
-  }
-  input {
-    width: calc(100% - 22px);
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  small {
-    display: block;
-  }
-  button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    &:hover {
-      background-color: #45a049;
+  form {
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
     }
-  }
-  .message {
-    color: #b91b1b;
+    input {
+      width: calc(100% - 22px);
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    small {
+      display: block;
+    }
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+    .message {
+      color: #b91b1b;
+    }
   }
 }
 table {
@@ -90,7 +92,7 @@ table {
     }
   }
 }
-.delete-icon {
+#delete-button i {
   font-size: 20px;
   color: #b91b1b;
   cursor: pointer;
